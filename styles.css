@@ -1,0 +1,73 @@
+:root {
+  --color-grey: #f7f9fb;
+  --color-subheading: #343442;
+  --bg-color:#f3f4f3;
+  --white: #fff;
+  --primaryColor: #329BFE;
+
+  --chipColor:#f0f0f0;;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--bg-color);
+  color: #000;
+}
+
+.bg-grey {
+  background-color: var(--color-grey);
+}
+
+.subheading {
+  color: var(--color-subheading);
+}
+
+.line {
+  position: relative;
+}
+
+.line:after {
+  display: inline-block;
+  content: "";
+  border-top: 0.2rem solid var(--primaryColor);
+  /* width: 15rem; */
+  width: min(15rem, 60%);
+  margin: 2px 1rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-item.active {
+  background-color: var(--primaryColor);
+}
+
+.nav-item.active h6,
+.nav-item.active i {
+  color: var(--white);
+}
+
+.chip {
+  background: var(--chipColor);
+}
+
+.chip:hover {
+  background: var(--primaryColor);
+  color: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+  .sticky {
+    position: sticky;
+    top: 150px;
+    height: 100%;
+  }
+  
+  .sticky.navbar {
+    top: 44px;
+  }
+}

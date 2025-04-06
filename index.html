@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kamalesh Murugan - Portfolio </title>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+		rel="stylesheet">
+
+	<!-- Fontawesome icon -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+	<!-- Tailwind Css -->
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<!-- <style type="text/tailwindcss">
+		@theme {
+		  --color-grey: #F4F6F6;
+		}
+	</style> -->
+	<link rel="stylesheet" href="styles.css" />
+	
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</head>
+
+<body class="select-none">
+	<div class="wrapper py-5">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-6 xl:px-8">
+			<div class="flex flex-col lg:flex-row gap-4 lg:mt-32">
+				<!-- Profile Sidebar -->
+				<div class="profile-sidebar order-0 sticky w-full lg:w-24 lg:max-w-[310px] xl:max-w-[360px] flex-auto">
+					<div class="rounded-xl bg-white">
+						<div class="flex flex-col sm:flex-row lg:flex-col p-5 md:p-6 sm:gap-6 lg:gap-0">
+							<div class="lg:-mt-32 pb-2 lg:pb-4 flex justify-center">
+								<img src="assets/me.jpg" alt="Profile"
+									class="size-[160px] md:size-[190px] lg:size-[215px] xl:size-[240px] object-cover object-top rounded-xl select-none pointer-events-none" />
+							</div>
+							<div class="profile-details text-center sm:flex-1 flex flex-col gap-1 md:gap-1.5 lg:gap-2 items-center sm:items-baseline lg:items-center">
+								<h2 class="text-lg font-bold">Kamalesh Murugan</h2>
+								<div class="bg-grey rounded-md px-3 py-1.5">
+									<span class="text-sm font-semibold ">UI | Frontend Developer</span>
+								</div>
+								<div class="social flex items-center gap-3 py-2">
+									<a href="https://www.facebook.com/KamaleshMurugan05" target="_blank"
+										class="size-10 bg-grey rounded-md flex items-center justify-center p-2 cursor-pointer">
+										<i class="fa-brands fa-facebook-f text-xl text-[#1877F2]"></i>
+									</a>
+									<a href="https://www.instagram.com/sonof_murugan" target="_blank"
+										class="size-10 bg-grey rounded-md flex items-center justify-center p-2 cursor-pointer">
+										<i class="fa-brands fa-instagram text-xl text-[#FF0069]"></i>
+									</a>
+									<a href="https://www.linkedin.com/in/kamalesh-murugan" target="_blank"
+										class="size-10 bg-grey rounded-md flex items-center justify-center p-2 cursor-pointer">
+										<i class="fa-brands fa-linkedin-in text-xl text-[#0077B5]"></i>
+									</a>
+								</div>
+
+								<div class="bg-grey py-3 px-3 w-full rounded-xl">
+									<div class="flex flex-col gap-3 divide-y-2 divide-white">
+										<div class="flex gap-3 items-center pb-3">
+											<div
+												class="size-10 p-3 rounded-md bg-white flex items-center justify-center">
+												<i class="fa-solid fa-phone text-lg text-[#F97B9C]"></i>
+											</div>
+											<div class="flex flex-col gap-0.5">
+												<span class="text-xs font-normal subheading text-left">Phone</span>
+												<span class="text-sm font-semibold text-left"><a href="tel:+919629316133">+91 9629316133</a></span>
+											</div>
+										</div>
+										<div class="flex gap-3 items-center pb-3">
+											<div
+												class="size-10 p-3 rounded-md bg-white flex items-center justify-center">
+												<i class="fa-regular fa-envelope text-lg text-[#768b8b]"></i>
+											</div>
+											<div class="flex flex-col gap-0.5">
+												<span class="text-xs font-normal subheading text-left">Email</span>
+												<span class="text-sm font-semibold text-left"><a href="mailto:kamaleshm55@gmail.com">kamaleshm55@gmail.com</a></span>
+											</div>
+										</div>
+										<div class="flex gap-3 items-center">
+											<div
+												class="size-10 p-3 rounded-md bg-white flex items-center justify-center">
+												<i class="fa-solid fa-location-dot text-lg text-[#F97B9C] text-left"></i>
+											</div>
+											<div class="flex flex-col gap-0.5">
+												<span class="text-xs font-normal subheading text-left">Location</span>
+												<span class="text-sm font-semibold text-left">Salem</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<a href="assets/Resume.pdf" download="Kamalesh-Resume"
+									class="mt-4 btn bg-[#329BFE] border-[#329BFE] py-3 px-6 rounded-lg flex items-center gap-2.5 cursor-pointer">
+									<i class="fa-solid fa-download text-lg text-white"></i>
+									<span class="text-base text-white font-semibold" >Download CV</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Details Sidebar -->
+				<div class="details flex-1 order-2 lg:order-0">
+					<div class="overflow-hidden rounded-xl bg-white">
+						<div class="px-5 py-6 lg:p-8">
+							<div class="section-menu about-me active" id="about">
+								<h2 class="text-3xl font-bold mb-6 line">About</h2>
+
+								<p class="text-[15px] leading-[23px] subheading tracking-[0.25px]">Highly skilled frontend developer with 8.6+
+									years of experience in designing and
+									building scalable, responsive, and visually stunning web applications. Skilled in
+									crafting seamless user experiences through expertise in HTML, CSS, JavaScript, and
+									various frontend frameworks and libraries. Proficient in creating reusable UI
+									components, state management, and API integration. Passionate about staying current
+									with the latest frontend development trends and best practices.</p>
+
+								<h3 class="text-2xl font-medium pt-8 pb-4">What I Do !</h3>
+
+								<div class="grid grid-cols-1 gap-4">
+									<div class="flex flex-row bg-[#FFF5F4] gap-3 rounded-xl p-6">
+										<div class="size-10 mt-2">
+											<i class="fa-solid fa-swatchbook text-2xl text-[#F97B9C]"></i>
+										</div>
+										<div class="flex flex-col gap-2">
+											<h6 class="text-base font-semibold">UI/UX Design</h6>
+											<p class="text-[13px] leading-[21px]">Start by understanding client needs,
+												goals, and audience.
+												Gather inspiration from trends and competitors. Use Figma to create
+												wireframes and prototypes, iterating designs based on feedback. Develop
+												a cohesive visual design with a consistent design system. Test, refine,
+												and deliver finalized assets, offering support when required.</p>
+										</div>
+									</div>
+									<div class="flex flex-row bg-[#EFF5F9] gap-3 rounded-xl p-6">
+										<div class="size-10 mt-2">
+											<!-- <i class="fa-solid fa-swatchbook text-2xl"></i> -->
+											<i class="fa-solid fa-code text-2xl text-[#329BFE]"></i>
+										</div>
+										<div class="flex flex-col gap-2">
+											<h6 class="text-base font-semibold">Web Development</h6>
+											<p class="text-[13px] leading-[21px]">To create a web application/website based
+												on the
+												client's design, start by understanding their requirements and choosing
+												frontend (e.g., React, Angular) frameworks or CMS (e.g., Shopify,
+												Wordpress). Set up the project with a modular structure,
+												implementing the design using CSS frameworks like Bootstrap or
+												TailwindCSS. Ensure responsiveness and a user-friendly layout.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="section-menu my-experience hidden" id="work">
+
+								<h2 class="text-3xl font-bold mb-6 line">Resume</h2>
+
+								<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-8">
+									<div class="education flex flex-col gap-3 order-1 sm:order-0">
+										<h4 class="text-2xl font-semibold">Education</h4>
+										<div class="flex flex-col bg-[#FFF5F4] gap-1 rounded-xl p-4">
+											<span class="text-sm">2012-2016</span>
+											<h5 class="text-lg"><span class="font-bold">Computer Science - </span><span
+													class="text-sm">Bachelor of Engineering,</span></h5>
+											<span class="text-sm">KIOT, Salem.</span>
+										</div>
+										<div class="flex flex-col bg-[#EFF5F9] gap-1 rounded-xl p-4">
+											<span class="text-sm">2010-2012</span>
+											<h5 class="text-lg"><span class="font-bold">HSC</span></h5>
+											<span class="text-sm">Gugai Hr.Sec School, Salem.</span>
+										</div>
+										<div class="flex flex-col bg-[#FFF5F4] gap-1 rounded-xl p-4">
+											<span class="text-sm">2006-2010</span>
+											<h5 class="text-lg"><span class="font-bold">SSLC</span></h5>
+											<span class="text-sm">CSI Hr.Sec School, Salem.</span>
+										</div>
+									</div>
+									<div class="experience flex flex-col gap-3 order-0 sm:order-1">
+										<h4 class="text-2xl font-semibold">Experience</h4>
+										<div class="flex flex-col bg-[#EFF5F9] gap-1 rounded-xl p-4">
+											<span class="text-sm">Since 2020</span>
+											<h5 class="text-lg"><span class="font-bold">Associate Lead Developer -
+												</span><span class="text-sm">Customer Analytics,</span></h5>
+											<span class="text-sm">Guindy, Chennai.</span>
+										</div>
+										<div class="flex flex-col bg-[#FFF5F4] gap-1 rounded-xl p-4">
+											<span class="text-sm">2016-2020</span>
+											<h5 class="text-lg"><span class="font-bold">Developer - </span><span
+													class="text-sm">SoftSolutions4U,</span></h5>
+											<span class="text-sm">Adyar, Chennai.</span>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-grey -ml-8 -mr-8 -mb-8 p-8">
+									<div class="skills">
+										<h4 class="text-2xl font-semibold pb-6">Technical Skills</h4>
+
+										<div class="grid grid-cols-1 gap-4">
+											<div class="skill">
+												<div class="flex gap-4 mb-2 justify-between">
+													<h6 class="text-sm">HTML, CSS, Javascript</h6>
+													<!-- <span>95%</span> -->
+												</div>
+												<div class="overflow-hidden rounded-full bg-gray-200">
+													<div class="h-1.5 rounded-full bg-red-600" style="width: 90%">
+													</div>
+												</div>
+											</div>
+											<div class="skill">
+												<div class="flex gap-3 mb-2 justify-between">
+													<h6 class="text-sm">UI/UX Development</h6>
+													<!-- <span>60%</span> -->
+												</div>
+												<div class="overflow-hidden rounded-full bg-gray-200">
+													<div class="h-1.5 rounded-full bg-yellow-400" style="width: 60%">
+													</div>
+												</div>
+											</div>
+											<div class="skill">
+												<div class="flex gap-3 mb-2 justify-between">
+													<h6 class="text-sm">Web Development</h6>
+													<!-- <span>85%</span> -->
+												</div>
+												<div class="overflow-hidden rounded-full bg-gray-200">
+													<div class="h-1.5 rounded-full bg-violet-600" style="width: 85%">
+													</div>
+												</div>
+											</div>
+											<div class="skill">
+												<div class="flex gap-3 mb-2 justify-between">
+													<h6 class="text-sm">Mobile Development</h6>
+													<!-- <span>70%</span> -->
+												</div>
+												<div class="overflow-hidden rounded-full bg-gray-200">
+													<div class="h-1.5 rounded-full bg-green-600" style="width: 70%">
+													</div>
+												</div>
+											</div>
+											<!-- <div class="skill">
+												<div class="flex gap-3 mb-2 justify-between">
+													<h6>CSS</h6>
+													<span>95%</span>
+												</div>
+												<div class="overflow-hidden rounded-full bg-gray-200">
+												<div class="h-2 rounded-full bg-indigo-600" style="width: 37.5%"></div>
+												</div>
+											</div> -->
+											<!-- <div class="skill">
+												<div class="flex gap-3 mb-2 justify-between">
+													<h6>, jQuery</h6>
+													<span>75%</span>
+												</div>
+												<div class="overflow-hidden rounded-full bg-gray-200">
+												<div class="h-2 rounded-full bg-indigo-600" style="width: 37.5%"></div>
+												</div>
+											</div> -->
+											<!-- <div class="skill">
+												<div class="flex gap-3 mb-2 justify-between">
+													<h6>jQuery</h6>
+													<span>95%</span>
+												</div>
+												<div class="overflow-hidden rounded-full bg-gray-200">
+												<div class="h-2 rounded-full bg-indigo-600" style="width: 37.5%"></div>
+												</div>
+											</div> -->
+										</div>
+									</div>
+									<div class="knowledge">
+										<h4 class="text-2xl font-semibold pb-6">Knowledge</h4>
+										<div class="flex gap-2 flex-wrap">
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Bootstrap</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">jQuery</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Figma</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Angular</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">SCSS / LESS</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Tailwind</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">React</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Wix</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Material</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Flutter</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">React Native</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">NodeJs</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Responsive Web design</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Wordpress</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Shopify</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Cloudrexx</span>
+											<span class="chip px-3 py-1.5 rounded-lg text-sm cursor-pointer">Wireframe
+												Development</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Navigation Sidebar -->
+				<div class="navbar sticky w-full lg:w-25 flex-none order-1 lg:order-0">
+					<div class="overflow-hidden rounded-xl bg-white">
+						<div class="p-4">
+							<div class="flex flex-row lg:flex-col gap-3">
+								<div data-target="about"
+									class="w-full px-4 py-3 flex flex-col gap-2 bg-grey rounded-xl items-center justify-center cursor-pointer nav-item active">
+									<div class="size-5 text-center">
+										<i class="fa-solid fa-user text-lg"></i>
+									</div>
+									<h6 class="text-xs">About</h6>
+								</div>
+								<div data-target="work"
+									class="w-full px-4 py-3 flex flex-col gap-2 bg-grey rounded-xl items-center justify-center cursor-pointer nav-item">
+									<div class="size-5 text-center">
+										<i class="fa-solid fa-briefcase text-lg"></i>
+									</div>
+									<h6 class="text-xs">Resume</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
