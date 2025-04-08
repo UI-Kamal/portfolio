@@ -3,7 +3,10 @@ jQuery(document).ready(function ($) {
         $('.navbar .nav-item').removeClass('active');
         $(this).addClass('active')
         var targetDiv = $(this).data('target');
-        window.scroll(0, 0)
+
+        if(window.innerWidth > 1024) {
+            window.scroll(0, 0)
+        }
 
         // Hide all divs and remove the active class
         $('.section-menu.active').fadeOut(400, function () {
@@ -19,7 +22,7 @@ jQuery(document).ready(function ($) {
     //     e.preventDefault();
     // });
 
-    // Strcit Inspect Element F12 Key
+    //Strcit Inspect Element F12 Key
     $(document).keydown(function(e){
         if(e.which === 123){
           return false;
